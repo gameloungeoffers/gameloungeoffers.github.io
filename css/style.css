@@ -1296,22 +1296,26 @@ ul.countdown li p {
 	line-height:30px;
 	letter-spacing:1px;
 	display: none;
-	color: #ff5353;
+	color: #fdb6b6;
 	font-weight: 400;
 	text-align: left;
 }
 #ajaxsuccess {
-	background: #f2f2f2;
-	color:#101010;
+	/* background: #f2f2f2; */
+	color:#ffffff;
 	font-family: 'Poppins', sans-serif;
-	line-height:60px;
+	line-height:1.25;
 	height:60px;
+	font-size: 0.9rem;
+	font-weight: 600;
 	display: none;
 	text-align: left;
 	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 30px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	/* margin-top: 30px; */
 }
 #ajax-form textarea:active,
 #ajax-form input:active {	

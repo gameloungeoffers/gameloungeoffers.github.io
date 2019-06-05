@@ -114,7 +114,7 @@
 					<div class="hero-title">Games based Loyalty Platform</div>
 					<div class="hero-title">for Restaurants to Increase</div>
 					<!-- <div class="hero-main-title">Customer Engagement</div> -->
-					<div class="hero-main-title"><span class="txt-rotate" data-period="4000" data-rotate='[ "Customer Engagement.", "Brand & Loyalty.", "Footfalls & Revenue."]'></span></div>
+					<div class="hero-main-title"><span class="txt-rotate" data-period="4000" data-rotate='[ "Customer Engagement.", "Brand Loyalty.", "Footfalls & Revenue."]'></span></div>
 				</div>
 				<!-- <ul class="countdown">
 						<li> 
@@ -993,13 +993,20 @@
 										<h6>drop a line</h6>
 									</div>
 									<div class="col-lg-9 mt-4 mt-lg-0">
-										<form name="ajax-form" id="ajax-form" action="mail-it.php" method="post">
+										<form name="ajax-form" id="ajax-form" method="post">
 											<div class="row">
 												<div class="col-lg-6">
 													<label for="name">
 														<span class="error" id="err-name">please enter name</span>
 													</label>
-													<input name="name" id="name" type="text" placeholder="Your Name: *" />
+													<input name="name" id="name" type="text" placeholder="Name: *" />
+												</div>
+												<div class="col-lg-6 mt-4 mt-lg-0">
+													<label for="city">
+														<span class="error" id="err-city">please enter city</span>
+														<!-- <span class="error" id="err-emailvld">e-mail is not a valid format</span> -->
+													</label>
+													<input name="city" id="city" type="text" placeholder="City & Country: *" />
 												</div>
 												<div class="col-lg-6 mt-4 mt-lg-0">
 													<label for="email">
@@ -1008,6 +1015,13 @@
 													</label>
 													<input name="email" id="email" type="text" placeholder="E-Mail: *" />
 												</div>
+												<div class="col-lg-6">
+													<label for="mobileNo">
+														<span class="error" id="err-mobile">please enter mobile no.</span>
+													</label>
+													<input name="mobile" id="mobile" type="text" placeholder="Mobile No.: " />
+												</div>
+				
 												<div class="col-lg-12 mt-4">
 													<label for="message"></label>
 													<textarea name="message" id="message" placeholder="Tell Us Everything"></textarea>
@@ -1019,10 +1033,10 @@
 													<div class="error" id="err-form"><span>There was a problem validating the form please check!</span></div>
 													<div class="error" id="err-timedout">The connection to the server timed out!</div>
 													<div class="error" id="err-state"></div>
-													<div id="ajaxsuccess">Successfully sent!!</div>
 												</div>
 											</div>
 										</form>
+										<div id="ajaxsuccess">Successfully sent!</div>
 									</div>
 									<div class="col-lg-3 mt-5">
 										<h6>contacts</h6>
